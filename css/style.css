@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 article {
@@ -36,6 +37,13 @@ article {
     letter-spacing: 5px;
 }
 
-.contein-perfume h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+p strong {
+    color: #33705a;
+    font-size: 2rem;
+}
+
+p span {
+    margin-left: 20px;
+    text-decoration: line-through;
+    color: #4e4e4e;
 }
