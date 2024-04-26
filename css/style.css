@@ -47,3 +47,26 @@ p span {
     text-decoration: line-through;
     color: #4e4e4e;
 }
+
+button {
+    background-color: #33705a;
+    border: none;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b3a2f;
+}
+
+button:active {
+    background-color: #33705a;
+}
