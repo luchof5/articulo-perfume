@@ -21,7 +21,7 @@ article {
 }
 
 .contein-img img {
-    width: 350px;
+    max-width: 350px;
 }
 
 .contein-perfume {
@@ -69,4 +69,15 @@ button:hover {
 
 button:active {
     background-color: #33705a;
+}
+
+@media screen and (max-width: 720px) {
+    article {
+        flex-direction: column;
+        width: 350px;
+    }
+
+    div.contein-perfume {
+        height: 395px;
+    }
 }
