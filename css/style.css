@@ -18,10 +18,12 @@ article {
     border-radius: 20px;
     background-color: #f5f5f5;
     overflow: hidden;
+    box-shadow: 9px 9px 5px -8px rgba(0,0,0,0.75);
 }
 
 .contein-img img {
     max-width: 350px;
+    height: 100%;
 }
 
 .contein-perfume {
