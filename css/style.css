@@ -35,6 +35,11 @@ article {
     color: #4e4e4e;
     font-family: monospace;
     letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.contein-perfume h2{
+    text-transform: capitalize;
 }
 
 p strong {
